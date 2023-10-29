@@ -1,0 +1,23 @@
+body{
+    background-color: blanchedalmond;
+    display: flex;
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+}
+
+._cubed{
+    width: 82vw;
+    height: 82vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.cube1{
+    background-color: rgba(10, 228, 228, 0.384);
+    border: 1px solid black;
+    width: calc(80vw/3);
+    height: calc(80vh/3);
+}
